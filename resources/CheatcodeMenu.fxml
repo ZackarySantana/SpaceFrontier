@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="162.0" prefWidth="271.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sf.CheatcodeMenu">
+   <children>
+      <Text fill="WHITE" layoutX="45.0" layoutY="52.0" onMouseReleased="#cheatcode" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheat Code" underline="true">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <TextField layoutX="61.0" layoutY="69.0" promptText="Enter Here" />
+      <Button layoutX="15.0" layoutY="104.0" mnemonicParsing="false" onAction="#openMainPane" prefHeight="44.0" prefWidth="92.0" text="Enter">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="164.0" layoutY="104.0" mnemonicParsing="false" onAction="#openMainPane" prefWidth="92.0" text="Cancel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
